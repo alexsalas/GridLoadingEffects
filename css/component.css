@@ -13,6 +13,10 @@
 	opacity: 1;
 }
 
+.grid li{
+	opacity: 0;
+}
+
 .grid li a,
 .grid li img {
 	outline: none;

@@ -93,13 +93,13 @@
 
 			var self = this;
 
-			imagesLoaded( this.el, function() {
+			//imagesLoaded( this.el, function() {
 				
 				// initialize masonry
-				new Masonry( self.el, {
+/* 				new Masonry( self.el, {
 					itemSelector: 'li',
 					transitionDuration : 0
-				} );
+				} ); */
 				
 				if( Modernizr.cssanimations ) {
 					// the items already shown...
@@ -119,7 +119,7 @@
 					}, false );
 				}
 
-			});
+			//});
 		},
 		_onScrollFn : function() {
 			var self = this;
